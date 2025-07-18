@@ -9,14 +9,14 @@ This project is a Python-based web application that helps users determine the mo
 - Displays delivery duration trends vs. departure times in a line chart
 
 ### Example 1
-<img src="images/example1.png" width="450">
-<img src="images/example2.png" width="450">
-<img src="images/example3.png" width="450">
+<img src="images/Example1.png" width="450">
+<img src="images/Example2.png" width="450">
+<img src="images/Example3.png" width="450">
 
 ### Example 2
-<img src="images/example4.png" width="450">
-<img src="images/example5.png" width="450">
-<img src="images/example6.png" width="450">
+<img src="images/Example4.png" width="450">
+<img src="images/Example5.png" width="450">
+<img src="images/Example6.png" width="450">
 
 ## Technologies
 - Python
