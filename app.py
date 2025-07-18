@@ -15,7 +15,7 @@ WAREHOUSE_ADDRESS = 'Amazon Fulfillment Centre (YXX1)'
 
 st.title("Amazon YXX1 Fulfillment Centre Delivery Optimizer")
 
-st.header("Enter Delivery Addresses (1-5):")
+st.subheader("Enter Delivery Addresses (1-5):")
 destinations = []   # List for delivery addresses (user input)
 
 for i in range (5): 
@@ -32,7 +32,7 @@ if st.button("Optimize Route and Time") and destinations:
     now = datetime.datetime.now()
     start_hour = 8
     if selected_date == datetime.date.today():
-        start_hour = now.hour + 1
+        start_hour = max(8, now.hour + 1)
 
     # First API call to get optimized waypoint order (no duration_with_traffic data)
     try: 
